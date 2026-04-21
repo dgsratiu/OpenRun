@@ -37,10 +37,20 @@ This repository is a collaborative Markdown workspace. Treat the repository as t
 
 ### Operating Posture
 
-- Start from the existing Markdown structure before inventing new files.
+- Start from the existing Markdown structure before inventing new files. This means: if a durable topic already has a page, revise that page rather than creating a parallel one. It does **not** mean "avoid creating files" — new durable topics, new queries, and new decisions are expected to produce new files. Growth by adding pages is the intended pattern.
 - Reuse and refine existing pages instead of scattering duplicate summaries.
 - Keep operational metadata lightweight. Do not build a database or hidden coordination layer inside the repo.
 - If automation is useful, it belongs in each collaborator's local environment unless the repo explicitly adopts a shared convention for it.
+
+### Operations
+
+The repo is maintained through three verbs. Each verb has a defined filesystem output — chat-only outputs are a fallback, not the default.
+
+- **Ingest.** A new raw source arrives. Place the source or its summary in `raw/`, update or create the relevant `wiki/` pages that the source affects, update `index.md` for any new pages, and append an `ingest` entry to `log.md`.
+- **Query.** The user asks a substantive question. The default is to answer *by filing an artifact*: either extend an existing `wiki/` page or create a new one, add an `index.md` entry for any new page, and append a `query` entry to `log.md`. The chat reply can summarize the artifact and link to it, but the durable answer lives on disk.
+  - Filing threshold: any answer that synthesizes multiple facts, takes more than a short paragraph, or that the user is likely to want to refer back to, is an artifact. Trivial clarifications and conversational exchanges stay in chat. When in genuine doubt, ask once; after that, file by default for the session.
+  - Filing a query is additive and reversible — prefer to file and let lint prune, rather than to lose a synthesis to chat history.
+- **Lint.** Periodically health-check the wiki: contradictions between pages, stale claims superseded by newer sources, orphan pages, missing cross-references, concepts mentioned but lacking their own page, candidate sources to ingest next. Append a `lint` entry to `log.md` summarizing what was checked and what was changed.
 
 ### Branch Adoption
 
