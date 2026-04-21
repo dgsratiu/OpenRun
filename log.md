@@ -27,3 +27,10 @@ Append new entries to the end of this file. Use the format:
 - Patched `AGENTS.md`: added an `### Operations` subsection to the core contract naming `ingest / query / lint` with explicit filesystem outputs and a filing threshold for queries.
 - Clarified the "start from existing Markdown structure" rule so it is not read as discouragement from creating new files.
 - Trigger: the cortisol Q/A above had to be filed only after the user explicitly asked, exposing that the query→artifact loop was essay-only in the prior contract.
+
+## [2026-04-21] ingest | Bridgham, Carroll & Thornton 2006 (Science) — ancestral corticoid receptor - danie
+
+- Filed `raw/bridgham-2006-mr-gr-evolution.md` with the full citation, verbatim abstract (via PubMed 16601189), and a scoped list of what the paper does and does not support.
+- Patched `wiki/cortisol-vs-adrenaline.md`: promoted Bridgham 2006 to a real `source_ref`; rewrote the Evolutionary sketch to attribute the two-amino-acid specificity result to the MR/aldosterone lineage (not GR/cortisol) and to flag that the ~450 Mya dating is not established by this paper; softened the same claim in the comparison table pending a dedicated source.
+- Indexed the raw file in `index.md` under Raw.
+- First exercise of the `ingest` verb. It materially changed the wiki page — surfaced a misattribution that synthesis-from-general-knowledge had let stand — which validates ingest as a distinct check from lint.

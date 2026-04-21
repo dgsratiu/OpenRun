@@ -15,6 +15,7 @@ This file catalogs durable content in the repository. Keep entries to one line e
 ## Raw
 
 - [raw/README.md](./raw/README.md) - Immutable source material and source summaries live here.
+- [raw/bridgham-2006-mr-gr-evolution.md](./raw/bridgham-2006-mr-gr-evolution.md) - Bridgham, Carroll & Thornton 2006 (Science) — ancestral corticoid receptor reconstruction and molecular exploitation.
 
 ## Wiki
 

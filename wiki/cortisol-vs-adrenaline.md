@@ -3,8 +3,9 @@ title: Cortisol vs adrenaline — why the stress response is split across two ho
 last_edited_by: danie
 updated_at: 2026-04-21
 source_refs:
-  - Synthesized from general physiology knowledge; no external source ingested.
-  - Candidate follow-up sources: Sapolsky "Why Zebras Don't Get Ulcers"; Chrousos 2009 "Stress and disorders of the stress system" (Nat Rev Endocrinol); GR evolutionary history — Thornton 2001 / Bridgham 2006 on MR/GR duplication in jawed vertebrates.
+  - raw/bridgham-2006-mr-gr-evolution.md — Bridgham, Carroll & Thornton 2006, Science 312(5770):97–101, doi:10.1126/science.1123348. Ancestral corticoid receptor reconstruction; "molecular exploitation" mechanism for MR/aldosterone specificity via two amino-acid changes.
+  - General physiology knowledge for the SAM/HPA division-of-labor framing; not yet backed by a specific ingested source.
+  - Candidate follow-up sources: Sapolsky "Why Zebras Don't Get Ulcers"; Chrousos 2009 "Stress and disorders of the stress system" (Nat Rev Endocrinol); Thornton 2001 (PNAS) for dating the vertebrate steroid-receptor duplications; Bridgham, Ortlund & Thornton 2009 (Nature) for the GR/cortisol-specificity side of the split.
 ---
 
 # Cortisol vs adrenaline — why the stress response is split across two hormones
@@ -24,7 +25,7 @@ The vertebrate stress response is split across two axes — a fast neural/amine 
 | Mechanism | Second-messenger cascades | Gene transcription |
 | Onset | Seconds | ~15–30 minutes |
 | Duration | Minutes | Hours |
-| Ancestry | Conserved across bilaterians | GR lineage traces to early jawed vertebrates (~450 Mya; MR/GR duplication) |
+| Ancestry | Conserved across bilaterians | GR descends from a vertebrate MR/GR gene duplication (dating pending a dedicated source ingest) |
 
 You cannot get both speed and durability out of one molecule. Fast signals exhaust their substrate pools and cannot rewrite cellular programs; slow signals cannot save you from a predator. Evolution built the two axes on different substrates precisely because the physics of the two jobs differ.
 
@@ -42,7 +43,11 @@ You cannot get both speed and durability out of one molecule. Fast signals exhau
 
 ## Evolutionary sketch
 
-The catecholamine alarm is the ancestral, conserved solution — present across bilaterians. The glucocorticoid receptor lineage traces to early jawed vertebrates; MR and GR diverged from a common ancestor via gene duplication (~450 Mya), after which GR specialized for glucocorticoid signaling. The slow steroid axis is layered on top of the older fast alarm, consistent with larger and longer-lived animals needing a mechanism to handle longer-duration threats than the original neural alarm could address.
+The catecholamine alarm is the ancestral, conserved solution — present across bilaterians. The slow steroid axis is layered on top of it, consistent with larger and longer-lived animals needing a mechanism for longer-duration threats than the original neural alarm could address.
+
+The molecular history is better resolved on the receptor side than on the physiology side. Bridgham, Carroll & Thornton (2006) reconstructed an **ancestral corticoid receptor (AncCR)** that predated the MR/GR gene duplication, and showed that its affinity for aldosterone was already present as a structural by-product of its partnership with older, chemically similar ligands — aldosterone itself evolved later. After the MR/GR duplication, **two amino-acid changes** in the ancestral sequence are sufficient to recapitulate present-day MR specificity for aldosterone. The authors name this pattern "molecular exploitation": a pre-existing molecule, constrained for another role, is recruited into a new functional complex once its partner arrives.
+
+Note the scope: Bridgham 2006 is specifically about the MR/aldosterone partnership. The mirror-image story — how GR evolved its relative specificity for cortisol — is addressed in later work (Bridgham, Ortlund & Thornton 2009) and is not established here. Likewise, the commonly cited ~450 Mya / jawed-vertebrate timing for the MR/GR duplication comes from the steroid-receptor phylogeny (Thornton 2001 and successors), not from the 2006 paper, and should be cited separately.
 
 ## Open threads / candidates for deeper pages
 
