@@ -9,6 +9,7 @@ This file catalogs durable content in the repository. Keep entries to one line e
 
 ## Decisions
 
+- [decisions/2026-04-21-query-answers-are-artifacts.md](./decisions/2026-04-21-query-answers-are-artifacts.md) - Substantive query answers are filed as wiki artifacts, not left in chat.
 - [decisions/README.md](./decisions/README.md) - Durable decision records and project conventions.
 
 ## Raw
@@ -17,4 +18,5 @@ This file catalogs durable content in the repository. Keep entries to one line e
 
 ## Wiki
 
+- [wiki/cortisol-vs-adrenaline.md](./wiki/cortisol-vs-adrenaline.md) - Why the vertebrate stress response is split across a fast amine axis and a slow steroid axis.
 - [wiki/README.md](./wiki/README.md) - Shared synthesized knowledge pages live here.

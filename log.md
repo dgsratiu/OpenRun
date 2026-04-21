@@ -14,3 +14,16 @@ Append new entries to the end of this file. Use the format:
 - Reframed the default branch as a fresh workspace template rather than a shared truth branch.
 - Updated the repo contract so durable knowledge work stays on personal branches.
 - Documented pull-based collaboration: inspect another branch, then selectively import what you want into your own branch.
+
+## [2026-04-21] query | Cortisol vs adrenaline — evolutionary split of the stress response - danie
+
+- Filed `wiki/cortisol-vs-adrenaline.md` synthesizing why vertebrates run a fast SAM/amine axis and a slow HPA/steroid axis rather than a single stress hormone.
+- Indexed the page in `index.md` under Wiki.
+- No new raw source ingested; candidate sources noted in the page's `source_refs` for future ingest.
+
+## [2026-04-21] decision | Query answers are wiki artifacts, not chat - danie
+
+- Added `decisions/2026-04-21-query-answers-are-artifacts.md` recording the rule.
+- Patched `AGENTS.md`: added an `### Operations` subsection to the core contract naming `ingest / query / lint` with explicit filesystem outputs and a filing threshold for queries.
+- Clarified the "start from existing Markdown structure" rule so it is not read as discouragement from creating new files.
+- Trigger: the cortisol Q/A above had to be filed only after the user explicitly asked, exposing that the query→artifact loop was essay-only in the prior contract.
