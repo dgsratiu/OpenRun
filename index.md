@@ -5,7 +5,7 @@ This file catalogs durable content in the repository. Keep entries to one line e
 ## Root
 
 - [AGENTS.md](./AGENTS.md) - Operating contract for agents working in this repository.
-- [README.md](./README.md) - Human-facing overview of the repository and branch workflow.
+- [README.md](./README.md) - Human-facing overview of the template-branch and sovereign-branch workflow.
 
 ## Decisions
 

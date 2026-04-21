@@ -4,20 +4,23 @@ OpenRun is a branch-first Markdown workspace for collaborative knowledge buildin
 
 The repository is the product. Your coding agent is the runtime. There is no required server, scheduler, or harness inside this repo.
 
+The default branch is only the entrypoint for a fresh workspace. Real work lives on personal branches.
+
 ## How To Work
 
-1. Start from `main`.
+1. Start from the default template branch.
 2. Create your own branch.
 3. Add or revise Markdown files.
 4. Compare your branch with other branches using git.
-5. Merge to `main` only when the change should become shared base state.
+5. Pull specific work from other branches into your own branch only when you want it.
 
 ## Branch Rules
 
-- `main` is the shared base branch.
-- Do not push directly to `main`.
+- The default branch is a bootstrap template, not a shared wiki.
+- Do not merge ordinary knowledge work into the default branch.
 - Use clear branch names such as `name/main`, `name/topic`, or `name/date-topic`.
-- Keep exploratory or disputed work on branches until someone explicitly wants it merged.
+- Keep exploratory, disputed, and durable knowledge work on branches.
+- If you want material from another branch, import it into your own branch deliberately after reviewing the diff.
 
 ## Workspace
 
@@ -31,3 +34,7 @@ The repository is the product. Your coding agent is the runtime. There is no req
 ## Runtime Model
 
 Anyone can use any coding agent locally against this repo. Local automation such as cron jobs, search tooling, or editor plugins is optional and stays outside the repo unless collaborators explicitly decide otherwise.
+
+## Collaboration Model
+
+There is no canonical shared content branch. The repo provides a common starting point and shared conventions. Each branch is a sovereign workspace. Collaboration happens when one person chooses to inspect and adopt work from another branch.

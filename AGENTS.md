@@ -6,7 +6,8 @@ This repository is a collaborative Markdown workspace. Treat the repository as t
 
 - The durable system of record is this git repository.
 - The runtime is whatever coding agent a person chooses to use locally.
-- `main` is the shared base branch. Do not push directly to `main`; only change it through explicit merge decisions.
+- The default branch is a fresh workspace template, not shared truth.
+- Durable knowledge work lives on sovereign personal or session branches, not on the default branch.
 - Every person or session works on its own branch. Branch names should make authorship and purpose obvious, for example `danie/main`, `zi/ingest-egc-2026-04-21`, or `alice/query-competitors`.
 - The repo should remain human-browsable. Prefer Markdown files, explicit links, and simple conventions over hidden tooling state.
 
@@ -29,9 +30,10 @@ This repository is a collaborative Markdown workspace. Treat the repository as t
 ### Collaboration Model
 
 - A branch is a personal environment. People may run their agent manually, on a schedule, or not at all; the repo does not assume any runtime automation.
-- Compare branches with git. Review the diff before merging.
-- If work is exploratory, partial, or controversial, keep it on the branch until someone explicitly wants it in shared state.
-- The default safe action is to make progress on your branch and leave `main` untouched.
+- Compare branches with git. Review the diff before importing work from another branch.
+- The default safe action is to make progress on your branch and leave the default branch untouched.
+- Collaboration is pull-based, not trunk-based. If someone wants material from another branch, they copy or merge it into their own branch deliberately.
+- Do not merge ordinary knowledge work back into the default branch. The default branch should change only when the workspace template or operating contract changes.
 
 ### Operating Posture
 
@@ -39,6 +41,12 @@ This repository is a collaborative Markdown workspace. Treat the repository as t
 - Reuse and refine existing pages instead of scattering duplicate summaries.
 - Keep operational metadata lightweight. Do not build a database or hidden coordination layer inside the repo.
 - If automation is useful, it belongs in each collaborator's local environment unless the repo explicitly adopts a shared convention for it.
+
+### Branch Adoption
+
+- To start working, branch from the default branch and keep that branch as your long-lived workspace unless you have a reason to split further.
+- To adopt someone else's work, inspect their branch, then selectively merge, cherry-pick, or copy only the files and commits you want into your own branch.
+- Treat another branch as a source you can study and import from, not as a global state you must converge to.
 
 # LLM Wiki
 
